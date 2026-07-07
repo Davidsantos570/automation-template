@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Zitec.Automation.Domain/Zitec.Automation.Domain.csproj" />
+  <Project Path="src/Zitec.Automation.Application/Zitec.Automation.Application.csproj" />
+  <Project Path="src/Zitec.Automation.Infra/Zitec.Automation.Infra.csproj" />
+  <Project Path="src/Zitec.Automation.Worker/Zitec.Automation.Worker.csproj" />
+</Solution>

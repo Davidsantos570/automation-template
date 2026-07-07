@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Zitec.Automation.Worker-467d9351-5c76-4aa3-8588-a2fcedeaa538</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zitec.Automation.Application\Zitec.Automation.Application.csproj" />
+    <ProjectReference Include="..\Zitec.Automation.Infra\Zitec.Automation.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

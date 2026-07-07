@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Zitec.Automation.Worker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
