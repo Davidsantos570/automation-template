@@ -25,9 +25,3 @@ seguindo o mesmo padrão de arquitetura do `Zitec.Pdf.Classifier`.
 | **Infra** | EF Core, banco de dados, chamadas a serviços externos (S3, Slack, APIs, etc.) |
 | **Worker** | Loop contínuo — chama a Application em intervalos definidos |
 
-## Próximo passo (opcional)
-
-Se essa automação precisar aparecer no **Zitec Monitor** (dashboard de automações),
-dá pra plugar dentro do `AutomacaoExecutorService` uma chamada gravando o resultado
-na tabela `Execucoes` do banco do monitor — aí ela aparece automaticamente no dashboard
-sem precisar de nenhuma integração extra.
